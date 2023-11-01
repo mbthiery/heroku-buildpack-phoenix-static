@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Forked version of [heroku-buildpack-phoenix-static](https://github.com/gjaldon/heroku-buildpack-phoenix-static). This forked version fixes [this issue](https://github.com/STUDITEMPS/heroku-buildpack-phoenix-static)
+
 This buildpack is meant to be used with the [Heroku Buildpack for Elixir](https://github.com/HashNuke/heroku-buildpack-elixir). When deploying Phoenix apps to Heroku, static assets will need to be compiled. This buildpack sees to it that static assets are compiled and that a corresponding asset manifest is generated.
 
 ## Features
